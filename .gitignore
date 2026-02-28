@@ -10,3 +10,9 @@ __pycache__/
 
 # Exports
 *.zip
+
+# Base de données locale
+db.sqlite3
+
+# Fichiers SQLite
+*.sqlite3

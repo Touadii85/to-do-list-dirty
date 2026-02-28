@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 # Vérification du paramètre
 if [ -z "$1" ]; then
   echo "Usage: ./build.sh version=X.Y.Z"
@@ -8,6 +10,10 @@ fi
 
 # Extraction de la version
 VERSION=$(echo $1 | cut -d'=' -f2)
+
+echo "Running Ruff (lint)..."
+pipenv run ruff check .
+echo "Ruff OK"
 
 if [ -z "$VERSION" ]; then
   echo "Version invalide."

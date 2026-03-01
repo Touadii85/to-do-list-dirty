@@ -1,0 +1,29 @@
+[
+  {
+    "model": "tasks.task",
+    "pk": 1,
+    "fields": {
+      "title": "Acheter du lait",
+      "complete": false,
+      "created": "2026-03-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "tasks.task",
+    "pk": 2,
+    "fields": {
+      "title": "Finir le TP QLTA",
+      "complete": false,
+      "created": "2026-03-01T11:00:00Z"
+    }
+  },
+  {
+    "model": "tasks.task",
+    "pk": 3,
+    "fields": {
+      "title": "Push sur GitHub",
+      "complete": true,
+      "created": "2026-03-01T12:00:00Z"
+    }
+  }
+]

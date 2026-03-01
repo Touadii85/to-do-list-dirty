@@ -1,6 +1,17 @@
+from django.core.management import call_command
 from django.test import TestCase
 from tasks.models import Task
-from django.test import TestCase
+
+class DatasetImportTests(TestCase):
+    def test_import_dataset_json_creates_tasks(self):
+        self.assertEqual(Task.objects.count(), 0)
+
+        # Django va chercher dataset.json dans tasks/fixtures/
+        call_command("loaddata", "dataset.json", verbosity=0)
+
+        self.assertEqual(Task.objects.count(), 3)
+        self.assertTrue(Task.objects.filter(title="Acheter du lait").exists())
+
 
 class SmokeTests(TestCase):
     def test_smoke(self):

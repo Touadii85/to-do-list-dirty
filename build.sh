@@ -11,14 +11,16 @@ fi
 # Extraction de la version
 VERSION=$(echo $1 | cut -d'=' -f2)
 
-echo "Running Ruff (lint)..."
-pipenv run ruff check .
-echo "Ruff OK"
+
 
 if [ -z "$VERSION" ]; then
   echo "Version invalide."
   exit 1
 fi
+
+echo "Running Ruff (lint)..."
+pipenv run ruff check .
+echo "Ruff OK"
 
 echo "Nouvelle version : $VERSION"
 

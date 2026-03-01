@@ -1,0 +1,6 @@
+[run]
+source = tasks
+omit =
+    */migrations/*
+    */__pycache__/*
+    manage.py

@@ -29,3 +29,5 @@ tests:
     type: manuel
   - numero: 15
     type: manuel
+  - numero: 16
+    type: manuel

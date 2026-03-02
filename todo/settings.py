@@ -127,3 +127,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Application version
 APP_VERSION = "1.0.2"
+
+# Custom test runner pour générer un rapport JSON à la fin des tests
+TEST_RUNNER = "todo.json_test_runner.JSONTestResultRunner"

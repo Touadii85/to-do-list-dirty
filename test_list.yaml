@@ -1,0 +1,31 @@
+tests:
+  - numero: 1
+    type: auto-unittest
+  - numero: 2
+    type: auto-unittest
+  - numero: 3
+    type: auto-unittest
+  - numero: 4
+    type: auto-unittest
+  - numero: 5
+    type: auto-unittest
+  - numero: 6
+    type: auto-unittest
+  - numero: 7
+    type: auto-unittest
+  - numero: 8
+    type: auto-unittest
+  - numero: 9
+    type: auto-unittest
+  - numero: 10
+    type: auto-unittest
+  - numero: 11
+    type: manuel
+  - numero: 12
+    type: manuel
+  - numero: 13
+    type: manuel
+  - numero: 14
+    type: manuel
+  - numero: 15
+    type: manuel

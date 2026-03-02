@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-03-01T17:23:45.396275+00:00",
+  "duration_seconds": 0.0,
+  "summary": {
+    "tests_run": 0,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "expected_failures": 0,
+    "unexpected_successes": 0,
+    "was_successful": true
+  },
+  "tests": []
+}

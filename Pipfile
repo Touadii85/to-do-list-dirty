@@ -9,6 +9,7 @@ django = "==3.2.*"
 [dev-packages]
 ruff = "*"
 coverage = "*"
+tox = "*"
 
 [requires]
 python_version = "3.12"
